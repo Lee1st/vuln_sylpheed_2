@@ -32,6 +32,8 @@ AC_SUBST(MICRO_VERSION)
 AC_SUBST(EXTRA_VERSION)
 AC_SUBST(BUILD_REVISION)
 
+AC_CONFIG_MACRO_DIRS([m4])
+
 dnl development or release version
 AC_SUBST(DEVEL_VERSION)
 if test "x$DEVEL_VERSION" != "x"; then
